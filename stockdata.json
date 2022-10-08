@@ -1,0 +1,32 @@
+[
+    {
+        "price": "233.19",
+        "changeAmount": "-1.56",
+        "change": "(-0.66%)"
+    },
+    {
+        "price": "87.03",
+        "changeAmount": "-2.32",
+        "change": "(-2.60%)"
+    },
+    {
+        "price": "87.16",
+        "changeAmount": "-3.01",
+        "change": "(-3.34%)"
+    },
+    {
+        "price": "128.56",
+        "changeAmount": "-3.12",
+        "change": "(-2.37%)"
+    },
+    {
+        "price": "140.09",
+        "changeAmount": "-5.34",
+        "change": "(-3.67%)"
+    },
+    {
+        "price": "234.24",
+        "changeAmount": "-12.55",
+        "change": "(-5.09%)"
+    }
+]
