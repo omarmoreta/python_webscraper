@@ -6,10 +6,9 @@ my_stocks = [ "MCD", "SBUX", "NKE", "WMT", "AAPL", "MSFT" ]
 stock_data = []
 
 def get_data(symbol):
-    headers = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"}
     url = f"https://finance.yahoo.com/quote/{symbol}?p={symbol}"
 
-    response = requests.get(url, headers=headers)
+    response = requests.get(url)
 
     soup = BeautifulSoup(response.text, "html.parser")
 
